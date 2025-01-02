@@ -1,9 +1,18 @@
-import Navbar from "@app/components/Navbar";
+import React from 'react'
+import Header from "@/components/Header";
+import Hero from '@/components/Hero';
+import SubHero from '@/components/SubHero';
+import Products from '@/components/Products';
 
-export default function Home() {
-  return (
-    <div>
-      <Navbar/>
-      </div>
-  );
-}
+
+export default function Home(){
+    return (
+      <>
+      <Header/>
+      <Hero />
+      <SubHero />
+      <Products />
+      
+      </>
+    )
+  }
